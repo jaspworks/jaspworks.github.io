@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- jaspworks site source code 2026 -->
+
+
+<!--font defined here lmao-->
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jaspworks</title>
+    
+    <style>
+        
+        body {
+            font-family: Doto, sans-serif;
+            background-image: url('https://raw.githubusercontent.com/jaspworks/jaspworks.github.io/refs/heads/main/bg.png'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .side-box {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #000000a9;
+            border: 2px solid #ffffff00;
+            padding: 30px;
+            width: 500px;
+            box-shadow: 0 0 120px rgb(0, 0, 0);
+            z-index: 10;
+        }
+
+        .left-box { left: 25%; }
+        .right-box { right: 40px; }
+        
+        h1, h2, h3, p {
+            margin-top: 0;
+            font-weight: normal;
+            color: #ffffff;
+        }
+        
+        h1 { font-size: 32px; margin-bottom: 20px; border-bottom: 1px solid #fff; padding-bottom: 10px; }
+        h2 { font-size: 28px; margin-bottom: 15px; }
+        
+        .section-title-bold {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        h3 { font-size: 18px; margin-top: 30px; margin-bottom: 10px; font-weight: bold; }
+        p { font-size: 14px; line-height: 1.4; margin-bottom: 10px; }
+
+        .link-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .link-list li {
+            margin-bottom: 10px;
+        }
+
+        .link-list a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 16px;
+            display: inline-block;
+            transition: transform 0.3s ease, opacity 0.3s ease, color 0.3s ease;
+        }
+
+        .link-list a:hover {
+            opacity: 1;
+            transform: scale(2);
+            text-decoration: rgb(255, 255, 255);
+            color: #ffffff;
+        }
+
+        .left-box .link-list a { transform-origin: left; }
+        .right-box .link-list a { transform-origin: left; }
+
+        .center-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 40%;
+        }
+
+        @media (max-width: 900px) {
+            .side-box {
+                position: relative;
+                top: 0; left: 0; right: 0;
+                transform: none;
+                width: 100%;
+                margin: 20px auto;
+            }
+            .center-content {
+                position: relative;
+                top: 0; left: 0;
+                transform: none;
+                width: 90%;
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+<!-- this is all the important stuff here lol -->
+<body>
+
+    <div class="side-box left-box">
+        
+        <span class="section-title-bold">about me</span>
+        <ul class="link-list">
+        </ul>
+        
+        <p></p>
+        <p>tgurllll who loves tf2, half life, portal and all things source (and bananas)</p>
+        <p>call me aubree</p>
+        <p>she/her they/them</p>
+        <p>dni if 17+</p>
+        <img src="https://raw.githubusercontent.com/jaspworks/jaspworks.github.io/refs/heads/main/bg.png"
+    </div>
+
+
+
+</body>
+
+</html>
+
+
