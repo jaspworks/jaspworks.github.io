@@ -72,7 +72,7 @@
 
         .me {
             max-height: 400px;
-            margin-left: 205px;
+            margin : auto;
         }
 
         @media (max-width: 1100px) {
@@ -85,7 +85,27 @@
                 margin: 20px auto;
                 max-height: none;
             }
+            
+            
         }
+
+         .link-list a {
+            padding: 0px;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 16px;
+            display: inline-block;
+            transition: transform 0.3s ease, opacity 0.3s ease, color 0.3s ease;
+        }
+
+        .link-list a:hover {
+            opacity: 1;
+            transform: scale(2);
+            text-decoration: rgb(255, 255, 255);
+            color: #ffffff;
+        }
+        .left-box .link-list a { transform-origin: left; }
+        .right-box .link-list a { transform-origin: left; }
     </style>
 </head>
 <body>
@@ -99,7 +119,14 @@
         <p>i am a modeller and render artist for polsmysaRBLX (check out their twitter)</p> 
         <p>below you can see a drawing of my character (drawn by ploobzi!)</p>
         <img class="me" src="https://raw.githubusercontent.com/jaspworks/jaspworks.github.io/refs/heads/main/drawingfromploob.png">
+
+        <span class="section-title-bold">friends</span>
+        <ul class="link-list">
+        <li><a href="https://aubree.lat">aubree</a></li>
+        <li><a href="https://minty.rest/">mint</a></li>
+        </ul>
     </div>
+    
     <!--attach images and shit below-->
     <div class="side-box right-box">
         <span class="section-title-bold">my work</span>
