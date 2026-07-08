@@ -1,4 +1,1 @@
-they keep telling me to add a readme so here i guess
-
-
-this is a website repo
+this is all the source code for the jaspworks page and the jaspworks streaming service
