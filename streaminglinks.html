@@ -5,13 +5,20 @@
  <style>
         
         body {
-            background-image: url('backgrounds/mainBG.gif');
+            background-image: url('backgrounds/streamingBG.png');
+            background-size: cover;
             text-align: center;
             font-family: Doto, sans-serif;
             background-color: rgb(255, 255, 255); 
             background-attachment: fixed;
         }
-                .section-title-bold {
+
+        .banner{
+            margin-left: auto;
+            margin-right:auto;
+            width:25%;
+        }
+        .section-title-bold {
             font-size: 24px;
 
             color: #ffffff;
@@ -25,14 +32,17 @@
         }
         .link-list a {
             text-decoration: none;
+            background-color: black;
             padding:5px;
             color: #ffffff;
             font-size: 16px;
             display: inline-block;
-            transition: transform 0.3s ease, opacity 0.3s ease, color 0.3s ease;
+            transition: transform 0.3s ease, opacity 0.3s ease, color 0.3s ease, margin-bottom 0.3s ease, margin-top 0.3s ease;
         }
         .link-list a:hover {
             opacity: 1;
+            margin-bottom: 15px;
+            margin-top: 15px;
             transform: scale(2);
             text-decoration: rgb(255, 255, 255);
             color: #ffffff;
@@ -46,18 +56,18 @@
 </head>
 
 
-<img style="display: block; margin-left:auto; margin-right:auto;width: 50%" src="banners/objticklebanner.png"> </img>
+<img class="banner" src="banners/objticklebanner.png"> </img>
 
       <p></p>
-<span style="text-align: center;" class="section-title-bold">OBJECT TICKLE WATCH LINKS</span>
+<span style="text-align: center;" class="section-title-bold">Object Tickle watch links</span>
         <ul style="text-align: center;" class="link-list">
-            <a  href="https://jaspworks.github.io"> object tickle is hosted by jaspworks</a>
+            <a style="color: rgb(188, 73, 255);"  href="https://jaspworks.github.io"> object tickle is created by jaspworks</a>
             <p></p>
             <li><a href="https://jaspworks.github.io/episodes/ot_episodes/objtickle1.html">episode 1</a></li>
         </ul>
     </span>
 <p></p>
-    <img style="display: block; margin-left:auto; margin-right:auto;width: 50%" src="https://jaspworks.github.io/banners/dgtsbanner.png"> </img>
+    <img class="banner" src="https://jaspworks.github.io/banners/dgtsbanner.png"> </img>
 
       <p></p>
 <span style="text-align: center;" class="section-title-bold">Da Gang: The Show watch links</span>
